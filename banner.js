@@ -1,0 +1,1 @@
+(function(){'use strict';document.addEventListener('click',function(e){var button=e.target.closest('.snb-close');if(!button)return;var banner=button.closest('.snb-banner');if(banner)banner.remove();});})();
